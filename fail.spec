@@ -80,7 +80,7 @@ Koder FAIL dla ImageMagicka, czytający formaty Atari.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__make} all fail-mime.xml \
